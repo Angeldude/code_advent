@@ -1,5 +1,5 @@
 def converter line
-    tmp = line.chomp.chars.filter {|x| x.match? /[[:digit:]]/}
+  tmp = line.chomp.chars.filter {|x| x.match? /[[:digit:]]/}
   (tmp.first + tmp.last)
 end
 
