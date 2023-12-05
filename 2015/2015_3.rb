@@ -84,11 +84,13 @@ p (counter(vv) == 4)
 p (counter(vvvv) == 2)
 p (counter(vvvvv) == 12)
 
-# p counter(input)
+file = File.read("input.txt")
+
+p counter(file.chomp)
 
 p (count_double_santas(vv) == 3)
 p (count_double_santas(vvv) == 3)
 p (count_double_santas(vvvv) == 11)
 p (count_double_santas(vvvvv) == 10)
 
-# p count_double_santas input
+p count_double_santas file.chomp
