@@ -18,8 +18,8 @@ File.foreach(file) do |line|
   stuff.push mathy(str_convert(line))
 end
 
-stuff.each do |mod|
-  tmp = mathy mod
-end
+#stuff.each do |mod|
+#  tmp = mathy mod
+#end
 
-# p stuff.sum
+p stuff.sum
